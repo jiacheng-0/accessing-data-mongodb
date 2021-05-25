@@ -2,6 +2,8 @@
 
 https://spring.io/guides/gs/accessing-data-mongodb/
 
+This spring project accesses a MongoDB "Customer" collection on the local test table.
+
 ## Overall diagram
 
 ![java](C:\VisaMaven\accessing-data-mongodb\diagrams\java.png)
