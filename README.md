@@ -6,7 +6,7 @@ This spring project accesses a MongoDB "Customer" collection on the local test t
 
 ## Overall diagram
 
-![java](C:\VisaMaven\accessing-data-mongodb\diagrams\java.png)
+![java](diagrams/java.png)
 
 ## Running the project
 
