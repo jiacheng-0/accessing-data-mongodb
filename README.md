@@ -8,6 +8,8 @@ This spring project accesses a MongoDB "Customer" collection on the local test t
 
 ### 2021-06-03
 
+![20210603-class-diagram](diagrams/20210603-class-diagram.png)
+
 ![20210603](diagrams/20210603.png)
 
 MongoDB Collection
