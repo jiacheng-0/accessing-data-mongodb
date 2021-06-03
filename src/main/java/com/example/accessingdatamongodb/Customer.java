@@ -2,6 +2,7 @@ package com.example.accessingdatamongodb;
 
 import org.springframework.data.annotation.Id;
 
+import java.util.ArrayList;
 
 public class Customer {
 
@@ -11,12 +12,24 @@ public class Customer {
     public String firstName;
     public String lastName;
 
+    public ArrayList<Hobby> hobbyList = new ArrayList<>();
+
     public Customer() {
     }
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public Customer(String firstName, String lastName, Hobby hobby) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        hobbyList.add(hobby);
+    }
+
+    public void addHobby(Hobby hobby){
+        hobbyList.add(hobby);
     }
 
     @Override
